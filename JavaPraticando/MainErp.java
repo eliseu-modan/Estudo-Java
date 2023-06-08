@@ -121,10 +121,12 @@ public class MainErp {
         	 default : System.out.println(erro); ;
         	 
         	}
+         entrada.nextLine();
            
          String sair = " ";
          
-           System.out.println("\n\nDigite Sair para Sair do Programa\nou Digite qualquer numero para continuar");
+           System.out.println("\n\nDigite Sair para Sair do Programa\n"
+           		+ "ou Digite qualquer numero para continuar");
             sair = entrada.nextLine();
             
             if(sair.equals("sair")) {
